@@ -10,7 +10,7 @@ ViewModel層:用於持有和UI元件相關的數據，以保證這些數據在�
 Repository層:使用Retrofit訪問中央氣象署-氣象資料開放平臺服務器提供的WebAPI接口來擷取數據<br><br><br>
 </div>
 
-# 架構設計
+# 操作說明
 <div>
 申請授權碼<br>
 如何申請授權碼請參考 網址:https://opendata.cwa.gov.tw/devManual/insrtuction<br><br><br>
