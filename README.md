@@ -3,8 +3,8 @@ SunnyWeather 是以 MVVM 架構去設計的天氣預報App，是使用中央氣�
 
 # 架構設計
 <div>
-SunnyWeather程序架構主要分為3層:UI控制層、ViewModel層、Repository層<br>
-<img src="https://i.imgur.com/Qf4vrOb.jpg"><br>
+SunnyWeather程序架構主要分為3層:UI控制層、ViewModel層、Repository層<br><br><br>
+<img src="https://i.imgur.com/Qf4vrOb.jpg"><br><br><br>
 UI控制層:包含了Activity、Fragment、布局文件等與介面相關的東西<br>
 ViewModel層:用於持有和UI元件相關的數據，以保證這些數據在屏幕旋轉時不會丟失，並且還要提供接口給UI控制層調用以及和Repository層進行通信<br>
 Repository層:使用Retrofit訪問中央氣象署-氣象資料開放平臺服務器提供的WebAPI接口來擷取數據<br><br><br>
